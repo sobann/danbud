@@ -1,0 +1,31 @@
+.images{
+    width: 100%;
+    min-height: 100vh;
+    background: url('../img/grunge_wall.png');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    flex-grow: 1;
+
+    img{
+        margin: 10px;
+        -webkit-box-shadow: 0px 50px 80px -68px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 50px 80px -68px rgba(0,0,0,1);
+        box-shadow: 0px 50px 80px -68px rgba(0,0,0,1);
+        transition: 0.4s;
+        border-radius: 5px;
+
+        &:hover{
+            transform: scale(1.05);
+        }
+        
+    }
+
+    h2{
+        font-family:'Raleway', sans-serif;
+        font-size: 29px;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
